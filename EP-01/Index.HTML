@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1>the before tag</h1>   //This Will not get replaced as we are not rendering this tag  -->
+    <div id="root">
+       <!-- <h1> Hellow World</h1>   How we do in HTML -->
+        <!-- <h1>who will render the js file header or html file header from React(THIS WILL GET REPLACED)</h1> -->
+         <!-- <h1>who will render the js file header or html file header from React</h -->
+    </div>
+    
+    <!-- HOW WE DO IN JAVASCRIPT -->
+    <!-- <script>
+        const Header = document.createElement("h1");
+        Header.innerHTML = "Hello wORLD"
+        document.getElementById("root").appendChild(Header);
+
+    </script> -->
+    
+    <!-- REACT CDN LINK--- -->
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+     <!-- ORDER MATTER OVER HERE -->
+    <script src = "App.js">
+    </script>
+</body>
+</html>
